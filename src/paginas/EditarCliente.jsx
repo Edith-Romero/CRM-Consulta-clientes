@@ -21,7 +21,7 @@ const EditarCliente = () => {
           } catch (error) {
               console.log(error);
           }
-          // uns sintaxis comun de react es colocar en vez de usar false se coloca !cargando lo opuesto al estado actual
+          // Una sintaxis comun de react es colocar en vez de usar false se coloca !cargando lo opuesto al estado actual
           setCargando(!cargando)
       }
       obtenerClienteApi()
