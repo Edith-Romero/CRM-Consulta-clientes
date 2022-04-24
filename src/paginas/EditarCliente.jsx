@@ -31,7 +31,7 @@ const EditarCliente = () => {
     <>
         <h1 className='font-black text-4xl text-blue-900'>Editar Cliente</h1>
         <p className='mt-3'>Utiliza este formulario para editar datos de un cliente</p> 
-           {/*Esta sintasis de doble && es de una sola opcion de salida es una manera simple de un ternario, lo dejo como referencia pero esta vez usaremos el ternario  */}
+           {/*Esta sintaxis de doble && es de una sola opcion de salida es una manera simple de un ternario, lo dejo como referencia pero esta vez usaremos el ternario  */}
         {/* {cliente?.nombre && (
           <Formulario
             cliente={cliente}
